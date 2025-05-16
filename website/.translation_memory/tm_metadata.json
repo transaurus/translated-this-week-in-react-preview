@@ -1,6 +1,7 @@
 {
   "locales": [
-    "es-TEST"
+    "es-TEST",
+    "es"
   ],
   "folder_patterns": [
     {
