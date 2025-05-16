@@ -75,18 +75,21 @@ const config: Config = {
     },
   ],
 
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "fr"],
-    localeConfigs: {
-      en: {
-        label: "🇬🇧 English",
-      },
-      fr: {
-        label: "🇫🇷 Français",
+    i18n: {
+      defaultLocale: "en",
+      locales: ["en", "fr", "es"],
+      localeConfigs: {
+        en: {
+          label: "🇬🇧 English",
+        },
+        fr: {
+          label: "🇫🇷 Français",
+        },
+        es: {
+          label: "🇪🇸 Español",
+        },
       },
     },
-  },
 
   markdown: {
     parseFrontMatter: async (params) => {
